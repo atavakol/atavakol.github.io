@@ -2,6 +2,16 @@
    https://webdocs.cs.ualberta.ca/~machado/index.html 
 */
 
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url('fonts/goudy_bookletter.eot'); 
+    src: 
+        local('Goudy Bookletter 1911'),
+        local('Goudy-Bookletter-1911'),
+        url('fonts/goudy_bookletter.otf') 
+        format('opentype');
+}
+
 header {
     background: url(img/arash-tavakoli.png) no-repeat top left #D6DBDF;
     background-size: 240px;
