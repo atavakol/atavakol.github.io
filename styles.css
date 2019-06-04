@@ -1,0 +1,97 @@
+/* The style-sheet has been adapted from Marlos Machado's amazing personal web-page:
+   https://webdocs.cs.ualberta.ca/~machado/index.html 
+*/
+
+header {
+    background: url(img/arash-tavakoli.png) no-repeat top left #D6DBDF;
+    background-size: 240px;
+    padding: 5px 5px 5px 250px;
+    font-family: 'Goudy Bookletter 1911', Didot, "Didot LT STD", 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    /*border-style: solid*/
+}
+
+header h1 {
+    padding-left: 0px !important;
+    font-size: 40px;
+    margin: 0px 0 0 0;
+    color: black;
+}
+
+header h2 {
+    padding-left: 0px !important;
+    font-size: 26px;
+    margin: 20px 0 0 0;
+    color: black;
+}
+
+header h3 {
+    padding-left: 0px !important;
+    margin: 5px 0 0 0;
+}
+
+
+
+body {
+    font-family: 'Goudy Bookletter 1911', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    color: #000000;
+    background: #FDFEFE;
+}
+
+body p {
+    padding-left: 250px;
+}
+
+body h1 {
+    padding-left: 250px;
+}
+
+body h2 {
+    padding-left: 250px;
+}
+
+body h3 {
+    padding-left: 250px;
+}
+
+body ul {
+    padding-left: 250px;
+}
+
+
+
+a:link {
+    color: #000000;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #666633;
+}
+
+
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: square;
+    padding-bottom: 5px;
+}
+
+
+
+ul.navbar {
+    position: absolute;
+    margin: 25px 0px 0px 25px;
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+
+.navbar li { 
+    font: 200 20px 'Goudy Bookletter 1911', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+.navbar li a:hover {
+    color: #780000;
+}
