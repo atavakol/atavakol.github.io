@@ -70,12 +70,18 @@ body ul {
 
 
 a:link {
-    color: #000000;
+    color: #154360;
     font-weight: bold;
 }
 
 a:visited {
+    color: #154360; 
+    /*color: #666633;*/
+}
+
+a:hover {
     color: #666633;
+    /*color: #780000;*/
 }
 
 
@@ -103,5 +109,6 @@ ul.navbar {
 }
 
 .navbar li a:hover {
-    color: #780000;
+    color: #666633;
+    /*color: #780000;*/
 }
