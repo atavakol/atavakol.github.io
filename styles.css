@@ -1,50 +1,40 @@
-/* The style-sheet has been adapted from Marlos Machado's amazing personal web-page:
-   https://webdocs.cs.ualberta.ca/~machado/index.html 
-*/
-
-@font-face {
-    font-family: 'Goudy Bookletter 1911';
-    src: url('fonts/goudy_bookletter.eot'); 
-    src: 
-        local('Goudy Bookletter 1911'),
-        local('Goudy-Bookletter-1911'),
-        url('fonts/goudy_bookletter.otf') 
-        format('opentype');
-}
 
 header {
-    background: url(img/arash-tavakoli.png) no-repeat top left #D6DBDF;
+    background: url(img/arash-tavakoli.png) no-repeat top left #f9f9f9;
     background-size: 240px;
     padding: 5px 5px 5px 250px;
-    font-family: 'Goudy Bookletter 1911', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-    /*border-style: solid*/
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #120136;
+    border-style: solid;
+    border-color: #5457a6;
 }
 
 header h1 {
     padding-left: 0px !important;
     font-size: 40px;
     margin: 0px 0 0 0;
-    color: black;
+    color: #120136;
 }
 
 header h2 {
     padding-left: 0px !important;
     font-size: 26px;
     margin: 20px 0 0 0;
-    color: black;
+    color: #120136;
 }
 
 header h3 {
     padding-left: 0px !important;
     margin: 5px 0 0 0;
+    color: #120136
 }
 
 
 
 body {
-    font-family: 'Goudy Bookletter 1911', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-    color: #000000;
-    background: #FDFEFE;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #120136;
+    background: #f9f9f9;
 }
 
 body p {
@@ -70,18 +60,17 @@ body ul {
 
 
 a:link {
-    color: #001f3f;
+    color: #035aa6;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #001f3f; 
-    /*color: #666633;*/
+    color: #035aa6;
 }
 
 a:hover {
-    color: #666633;
-    /*color: #780000;*/
+    color: #fbb040;
 }
 
 
@@ -104,11 +93,10 @@ ul.navbar {
     list-style-type: none;
 }
 
-.navbar li { 
-    font: 200 20px 'Goudy Bookletter 1911', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+.navbar li {
+    font: 200 20px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar li a:hover {
-    color: #666633;
-    /*color: #780000;*/
+    color: #fbb040;
 }
