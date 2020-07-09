@@ -3,7 +3,7 @@ header {
     background: url(img/arash-tavakoli.png) no-repeat top left #f9f9f9;
     background-size: 240px;
     padding: 5px 5px 5px 250px;
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #120136;
     border-style: solid;
     border-color: #5457a6;
@@ -25,19 +25,15 @@ header h2 {
 
 header h3 {
     padding-left: 0px !important;
+    font-size: 20px;
     margin: 5px 0 0 0;
     color: #120136
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal !important;
-	text-shadow: 0 0 0;
 }
 
 
 
 body {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #120136;
     background: #f9f9f9;
 }
@@ -60,6 +56,10 @@ body h3 {
 
 body ul {
     padding-left: 250px;
+}
+
+table {
+    font-size:16px;
 }
 
 
