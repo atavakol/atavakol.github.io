@@ -26,6 +26,7 @@ header h2 {
 header h3 {
     padding-left: 0px !important;
     font-size: 20px;
+    font-weight: normal;
     margin: 5px 0 0 0;
     color: #120136
 }
@@ -53,6 +54,7 @@ body h2 {
 
 body h3 {
     padding-left: 250px;
+    font-weight: normal;
 }
 
 body ul {
@@ -60,7 +62,7 @@ body ul {
 }
 
 table {
-    font-size:16px;
+    font-size: 16px;
 }
 
 
