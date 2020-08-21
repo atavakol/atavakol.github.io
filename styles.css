@@ -6,7 +6,7 @@ header {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #120136;
     border-style: solid;
-    border-color: #5457a6;
+    border-color: #f9f9f9;
 }
 
 header h1 {
@@ -28,7 +28,7 @@ header h3 {
     font-size: 20px;
     /* font-weight: normal; */
     margin: 5px 0 0 0;
-    color: #120136
+    color: #120136;
 }
 
 
