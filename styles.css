@@ -108,11 +108,3 @@ ul.navbar {
 .navbar li a:hover {
     color: #fbb040;
 }
-
-
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
