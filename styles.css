@@ -4,38 +4,38 @@ header {
     background-size: 240px;
     padding: 5px 5px 5px 250px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #120136;
+    color: #272727;
     border-style: solid;
-    border-color: #575757;
+    border-color: #272727;
 }
 
 header h1 {
     padding-left: 0px !important;
     font-size: 40px;
     margin: 0px 0 0 0;
-    color: #120136;
+    color: #272727;
 }
 
 header h2 {
     padding-left: 0px !important;
     font-size: 26px;
     margin: 20px 0 0 0;
-    color: #120136;
+    color: #393E46;
 }
 
 header h3 {
     padding-left: 0px !important;
     font-size: 20px;
-    /* font-weight: normal; */
+    font-weight: normal;
     margin: 5px 0 0 0;
-    color: #120136;
+    color: #393E46;
 }
 
 
 
 body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #120136;
+    color: #393E46;
     background: #f9f9f9;
 }
 
@@ -68,17 +68,17 @@ table {
 
 
 a:link {
-    color: #035aa6;
-    font-weight: normal;
+    color: #02475E;
+    font-weight: bold;
     text-decoration: none;
 }
 
 a:visited {
-    color: #035aa6;
+    color: #02475E;
 }
 
 a:hover {
-    color: #fbb040;
+    color: #00ADB5;
 }
 
 
@@ -106,5 +106,5 @@ ul.navbar {
 }
 
 .navbar li a:hover {
-    color: #fbb040;
+    color: #00ADB5;
 }
