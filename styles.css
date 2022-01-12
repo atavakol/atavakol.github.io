@@ -1,26 +1,28 @@
 
 header {
-    background: url(img/arash-tavakoli.png) no-repeat top left #f9f9f9;
-    background-size: 240px;
-    padding: 5px 5px 5px 250px;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #272727;
-    border-style: solid;
-    border-color: #272727;
+    background: url(img/atavakoli-circle.png) no-repeat top 10px left 30px #FBFBFB;
+    background-size: 180px;
+    padding: 5px 5px 25px 250px;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    color: #14234B;
+    border-style: none;
+    border-color: #14234B;
 }
 
 header h1 {
     padding-left: 0px !important;
     font-size: 40px;
+    font-weight: normal;
     margin: 0px 0 0 0;
-    color: #272727;
+    color: #14234B;
 }
 
 header h2 {
     padding-left: 0px !important;
     font-size: 26px;
+    font-weight: normal;
     margin: 20px 0 0 0;
-    color: #393E46;
+    color: #14234B;
 }
 
 header h3 {
@@ -28,15 +30,15 @@ header h3 {
     font-size: 20px;
     font-weight: normal;
     margin: 5px 0 0 0;
-    color: #393E46;
+    color: #14234B;
 }
 
 
 
 body {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #393E46;
-    background: #f9f9f9;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    color: #14234B;
+    background: #FBFBFB;
 }
 
 body p {
@@ -46,15 +48,17 @@ body p {
 
 body h1 {
     padding-left: 250px;
+    font-weight: normal;
 }
 
 body h2 {
     padding-left: 250px;
+    font-weight: normal;
 }
 
 body h3 {
     padding-left: 250px;
-    /* font-weight: normal; */
+    font-weight: normal;
 }
 
 body ul {
@@ -65,23 +69,15 @@ table {
     font-size: 16px;
 }
 
-
-
-a:link {
-    color: #02475E;
-    font-weight: bold;
-    text-decoration: none;
+a {
+    color: #0153D6;
+    text-decoration:none;
 }
-
-a:visited {
-    color: #02475E;
+  
+a:focus, a:hover {
+    color: #14234B;
+    text-decoration:none;
 }
-
-a:hover {
-    color: #00ADB5;
-}
-
-
 
 ul {
     margin-left: 30px;
@@ -102,9 +98,16 @@ ul.navbar {
 }
 
 .navbar li {
-    font: 200 20px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 200 20px 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 .navbar li a:hover {
-    color: #00ADB5;
+    color: #14234B;
 }
+
+
+
+/*.content {
+  max-width: 500px;
+  margin: auto;
+}*/
