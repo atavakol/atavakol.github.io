@@ -112,17 +112,3 @@ ul.navbar {
   max-width: 500px;
   margin: auto;
 }*/
-
-
-
-#rcorners {
-  border-radius: 2px;
-  background: #73AD21;
-  padding: 0px 0px 0px 0px;
-  text-align: center;
-  width: 100px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-}
