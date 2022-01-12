@@ -99,6 +99,7 @@ ul.navbar {
 
 .navbar li {
     font: 200 20px 'Lato', Verdana, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 .navbar li a:hover {
