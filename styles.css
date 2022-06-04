@@ -3,10 +3,10 @@ header {
     background: url(img/atavakoli-circle.png) no-repeat top 10px left 30px #FBFBFB;
     background-size: 180px;
     padding: 5px 5px 25px 250px;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    color: #14234B;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
     border-style: none;
-    border-color: #14234B;
+    border-color: #000000;
 }
 
 header h1 {
@@ -14,7 +14,7 @@ header h1 {
     font-size: 40px;
     font-weight: normal;
     margin: 0px 0 0 0;
-    color: #14234B;
+    color: #000000;
 }
 
 header h2 {
@@ -22,7 +22,7 @@ header h2 {
     font-size: 26px;
     font-weight: normal;
     margin: 20px 0 0 0;
-    color: #14234B;
+    color: #000000;
 }
 
 header h3 {
@@ -30,14 +30,14 @@ header h3 {
     font-size: 20px;
     font-weight: normal;
     margin: 5px 0 0 0;
-    color: #14234B;
+    color: #000000;
 }
 
 
 
 body {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    color: #14234B;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
     background: #FBFBFB;
 }
 
@@ -75,8 +75,8 @@ a {
 }
   
 a:focus, a:hover {
-    color: #14234B;
-    text-decoration:none;
+    color: #0153D6;
+    text-decoration:underline;
 }
 
 ul {
@@ -98,12 +98,12 @@ ul.navbar {
 }
 
 .navbar li {
-    font: 200 20px 'Lato', Verdana, Helvetica, sans-serif;
+    font: 200 20px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
 
 .navbar li a:hover {
-    color: #14234B;
+    color: #0153D6;
 }
 
 
