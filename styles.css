@@ -12,7 +12,7 @@ header {
 header h1 {
     padding-left: 0px !important;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: 100;
     margin: 0px 0 0 0;
     color: #000000;
 }
@@ -20,7 +20,7 @@ header h1 {
 header h2 {
     padding-left: 0px !important;
     font-size: 26px;
-    font-weight: normal;
+    font-weight: 100;
     margin: 20px 0 0 0;
     color: #000000;
 }
@@ -28,7 +28,7 @@ header h2 {
 header h3 {
     padding-left: 0px !important;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 100;
     margin: 5px 0 0 0;
     color: #000000;
 }
@@ -48,21 +48,21 @@ body p {
 
 body h1 {
     padding-left: 250px;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 body h2 {
     padding-left: 250px;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 body h3 {
     padding-left: 250px;
-    font-weight: normal;
+    font-weight: 100;
 }
 
-body p.b {
-    font-weight: 300;
+strong {
+    font-weight: 700;
 }
 
 body ul {
@@ -84,11 +84,11 @@ a:focus, a:hover {
 }
 
 ul {
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 li {
-    list-style-type: square;
+    list-style-type: none;
     padding-bottom: 5px;
 }
 
@@ -103,7 +103,7 @@ ul.navbar {
 
 .navbar li {
     font: 200 20px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 .navbar li a:hover {
