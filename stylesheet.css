@@ -104,4 +104,4 @@ header{display:flex; flex-wrap:wrap; padding-top:1em; padding-bottom:0em; row-ga
 
 .projects .buttons{margin:0.35em 0 0;}
 
-.projects .buttons a{background:none; color:#BA0F76; border:none; padding:4px;}
+.projects .buttons a{background:none; color:#BA0F76; border:none; padding-right:8px;}
